@@ -1,0 +1,180 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Averta Regular';
+  src: url('/fonts/averta-regular-webfont.woff2') format('woff2'),
+    url('/fonts/averta-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Averta Semibold';
+  src: url('/fonts/averta-semibold-webfont.woff2') format('woff2'),
+    url('/fonts/averta-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Averta Bold';
+  src: url('/fonts/averta-bold-webfont.woff2') format('woff2'),
+    url('/fonts/averta-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body,
+table {
+  -webkit-tap-highlight-color: transparent;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'pnum' 1, 'tnum' 0, 'onum' 0, 'lnum' 0,
+    'dlig' 0;
+}
+
+body {
+  @apply font-averta tracking-wide;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold mt-0 mb-0;
+}
+
+a {
+  transition: color 0.2s ease-out;
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-lg;
+}
+
+h5 {
+  @apply text-base;
+}
+
+h6 {
+  @apply text-xs;
+}
+
+@screen xs {
+  h6 {
+    @apply text-base;
+  }
+}
+
+@screen sm {
+  table,
+  a,
+  p {
+    @apply text-sm;
+  }
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+  h6 {
+    @apply text-base;
+  }
+}
+
+@screen lg {
+  table,
+  a,
+  p {
+    @apply text-lg;
+  }
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-5xl;
+  }
+  h3 {
+    @apply text-3xl;
+  }
+  h4 {
+    @apply text-2xl;
+  }
+  h5 {
+    @apply text-xl;
+  }
+  h6 {
+    @apply text-base;
+  }
+}
+
+.text-caption {
+  @apply text-accent-1 text-xxxs;
+}
+
+@screen sm {
+  .text-caption {
+    @apply text-sm;
+  }
+}
+
+.text-caption-2 {
+  @apply text-accent-2 text-xxxxs;
+}
+
+@screen sm {
+  .text-caption-2 {
+    @apply text-xxxs;
+  }
+}
+
+@screen lg {
+  .text-caption-2 {
+    @apply text-xxs;
+  }
+}
+
+.text-caption-2 a {
+  @apply text-accent-2;
+}
+
+.text-pt-gradient {
+  @apply bg-clip-text text-transparent bg-pt-gradient;
+}
+
+.font-averta-semibold {
+  font-family: 'Averta Semibold';
+}
+
+.font-averta-bold {
+  font-family: 'Averta Bold';
+}
