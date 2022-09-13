@@ -33,10 +33,10 @@ table {
   scroll-behavior: smooth;
 }
 
-::selection {
+/* ::selection {
   background-color: #79ffe1;
   color: var(--color-text-inverse);
-}
+} */
 
 hr {
   border: 0;
