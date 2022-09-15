@@ -39,7 +39,7 @@ table {
 }
 
 body {
-  @apply font-averta tracking-wide;
+  @apply tracking-wide;
 }
 
 h1,
