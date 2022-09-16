@@ -31,6 +31,7 @@ const pooltogetherReactTailwindUIConfig = {
       'gradient-magenta': '#ff77e1',
       'gradient-cyan': '#17e1fd',
       'gradient-yellow': '#ffed47',
+      'blue-2': 'var(--color-bg-blue-2)',
       'pt-teal': {
         lighter: '#adfff3',
         light: '#70fde6',
@@ -56,7 +57,9 @@ const pooltogetherReactTailwindUIConfig = {
     extend: {
       backgroundImage: {
         'pt-gradient':
-          'linear-gradient( 77.6deg, var(--color-pt-gradient-cyan) 0%, var(--color-pt-gradient-magenta) 48.47%, var(--color-pt-gradient-yellow) 88.67%)'
+          'linear-gradient( 77.6deg, var(--color-pt-gradient-cyan) 0%, var(--color-pt-gradient-magenta) 48.47%, var(--color-pt-gradient-yellow) 88.67%)',
+        'flashy-gradient':
+          'linear-gradient(40deg, #3b82f6 10%, #6366f1 40%, #8b5cf6 60%, #d946ef 80%)'
       },
       backgroundColor: {
         'body': 'var(--color-bg-body)',
@@ -104,7 +107,9 @@ const pooltogetherReactTailwindUIConfig = {
         'purple': 'var(--color-bg-purple)',
         'light-purple-10': 'var(--color-bg-light-purple-10)',
         'light-purple-70': 'var(--color-bg-light-purple-70)',
-        'gradient-purple': 'var(--color-pt-gradient-purple)'
+        'gradient-purple': 'var(--color-pt-gradient-purple)',
+        'blue-2': 'var(--color-bg-blue-2)',
+        'slate100': 'var(--color-text-slate-100)'
       },
       textColor: {
         'accent-1': 'var(--color-text-accent-1)',
@@ -142,7 +147,8 @@ const pooltogetherReactTailwindUIConfig = {
         'teal': 'var(--color-text-teal)',
         'accent-grey-1': 'var(--color-text-accent-grey-1)',
         'purple': 'var(--color-text-purple)',
-        'gradient-purple': 'var(--color-pt-gradient-purple)'
+        'gradient-purple': 'var(--color-pt-gradient-purple)',
+        'slate100': 'var(--color-text-slate-100)'
       },
       borderColor: {
         'body': 'var(--color-border-body)',

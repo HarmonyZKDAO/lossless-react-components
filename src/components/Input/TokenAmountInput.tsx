@@ -74,7 +74,7 @@ export const TokenAmountInput: React.FC<TokenAmountInputProps> = (props) => {
         className={classNames(
           bgClassName,
           'p-0.5 rounded-lg overflow-hidden',
-          'transition-all hover:bg-gradient-cyan focus-within:bg-pt-gradient',
+          'transition-all hover:bg-blue-2 focus-within:bg-flashy-gradient',
           'cursor-pointer'
         )}
       >
@@ -120,7 +120,7 @@ const InputHeader = (props: InputHeaderProps) => {
   const isBalanceFetched = isWalletConnected && Boolean(balance)
 
   return (
-    <div className='flex justify-between text-xs uppercase font-semibold text-pt-purple-dark text-opacity-60 dark:text-pt-purple-lighter mb-1'>
+    <div className='flex justify-between text-xs font-semibold text-pt-purple-dark text-opacity-60 dark:text-pt-purple-lighter mb-1'>
       <span className={classNames('')}>{(i18nKey && t?.(i18nKey)) || 'Amount'}</span>
       {isWalletConnected && (
         <button
