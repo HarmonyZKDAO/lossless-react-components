@@ -31,7 +31,6 @@ const pooltogetherReactTailwindUIConfig = {
       'gradient-magenta': '#ff77e1',
       'gradient-cyan': '#17e1fd',
       'gradient-yellow': '#ffed47',
-      'blue-2': 'var(--color-bg-blue-2)',
       'pt-teal': {
         lighter: '#adfff3',
         light: '#70fde6',
@@ -109,7 +108,9 @@ const pooltogetherReactTailwindUIConfig = {
         'light-purple-70': 'var(--color-bg-light-purple-70)',
         'gradient-purple': 'var(--color-pt-gradient-purple)',
         'blue-2': 'var(--color-bg-blue-2)',
-        'slate100': 'var(--color-text-slate-100)'
+        'slate100': 'var(--color-text-slate-100)',
+        'indigo900': 'var(--color-bg-indigo-900)',
+        'indigo700': 'var(--color-bg-indigo-700)'
       },
       textColor: {
         'accent-1': 'var(--color-text-accent-1)',

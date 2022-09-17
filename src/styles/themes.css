@@ -63,6 +63,8 @@
   --color-bg-light-purple-10: rgba(173, 153, 216, 0.1);
   --color-bg-light-purple-70: rgba(110, 77, 179, 1);
   --color-bg-blue-2: #458fff;
+  --color-bg-indigo-900: #312e81;
+  --color-bg-indigo-700: #4338ca;
 
   --color-text-accent-1: #cdc5df;
   --color-text-accent-2: #cdc5df;
@@ -177,6 +179,8 @@
   --color-bg-light-purple-10: rgba(173, 153, 216, 0.1);
   --color-bg-light-purple-70: rgba(110, 77, 179, 1);
   --color-bg-blue-2: #458fff;
+  --color-bg-indigo-900: #312e81;
+  --color-bg-indigo-700: #4338ca;
 
   --color-text-accent-1: #7665ac;
   --color-text-accent-2: #4c249f;
