@@ -9,10 +9,10 @@ import DocsIcon from '../../assets/Socials/docs.svg'
 import GovForumIcon from '../../assets/Socials/gov-forum.svg'
 import TreasuryIcon from '../../assets/Socials/treasury.svg'
 
-import MediumLogo from '../../assets/Socials/medium-logo.svg'
+// import MediumLogo from '../../assets/Socials/medium-logo.svg'
 import DiscordLogo from '../../assets/Socials/discord-logo.svg'
 import TwitterLogo from '../../assets/Socials/twitter-logo.svg'
-import TelegramLogo from '../../assets/Socials/telegram-logo.svg'
+// import TelegramLogo from '../../assets/Socials/telegram-logo.svg'
 
 const sharedClasses =
   'relative leading-none w-full flex justify-start items-center py-2 px-0 mb-1 ml-0 trans outline-none focus:outline-none active:outline-none h-10'
