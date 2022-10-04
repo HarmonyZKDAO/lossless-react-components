@@ -82,21 +82,21 @@ const socialsLinkData = [
         label: 'Twitter',
         icon: <img src={TwitterLogo} className='w-4 opacity-70 mx-auto' />
       },
-      {
-        href: 'https://t.me/PoolTogetherTelegram',
-        label: 'Telegram',
-        icon: <img src={TelegramLogo} className='w-4 opacity-70 mx-auto hover:opacity-100 trans' />
-      },
+      // {
+      //   href: 'https://t.me/PoolTogetherTelegram',
+      //   label: 'Telegram',
+      //   icon: <img src={TelegramLogo} className='w-4 opacity-70 mx-auto hover:opacity-100 trans' />
+      // },
       {
         href: 'https://pooltogether.com/discord/',
         label: 'Discord',
         icon: <img src={DiscordLogo} className='w-4 opacity-70 mx-auto hover:opacity-100 trans' />
-      },
-      {
-        href: 'https://medium.com/pooltogether',
-        label: 'Medium',
-        icon: <img src={MediumLogo} className='w-4 opacity-70 mx-auto hover:opacity-100 trans' />
       }
+      // {
+      //   href: 'https://medium.com/pooltogether',
+      //   label: 'Medium',
+      //   icon: <img src={MediumLogo} className='w-4 opacity-70 mx-auto hover:opacity-100 trans' />
+      // }
     ]
   }
 ]
