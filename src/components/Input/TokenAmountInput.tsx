@@ -73,6 +73,7 @@ export const TokenAmountInput: React.FC<TokenAmountInputProps> = (props) => {
       <div
         className={classNames(
           bgClassName,
+          'inputAmount',
           'p-0.5 rounded-lg overflow-hidden',
           'transition-all hover:bg-blue-2 focus-within:bg-flashy-gradient',
           'cursor-pointer'
