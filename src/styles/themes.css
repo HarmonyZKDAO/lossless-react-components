@@ -17,7 +17,8 @@
   /* Old format */
   /* --color-bg-body: #2d0b5a; */
   --color-bg-body: #0f172a;
-  --color-bg-card: #341762;
+  /* --color-bg-card: #341762; */
+  --color-bg-card: #1e3a8a;
   --color-bg-card-selected: #43286e;
   --color-bg-card-purple: #4c249f;
   --color-bg-primary: #290b5a;
