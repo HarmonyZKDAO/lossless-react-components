@@ -12,7 +12,7 @@ export const FeatureRequestSettingsItem = (props: FeatureRequestSettingsItemProp
   const { t } = props
 
   return (
-    <SettingsItem label={t?.('featureRequest') || 'Feature request'}>
+    <SettingsItem label={t?.('Feature Request') || 'Feature request'}>
       <ExternalLink className='font-bold' href='https://pooltogether.canny.io/feature-requests'>
         Canny
       </ExternalLink>
