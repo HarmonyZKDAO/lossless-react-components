@@ -106,7 +106,7 @@ export const Modal = (props: ModalProps) => {
 Modal.defaultProps = {
   noPad: false,
   noSize: false,
-  bgClassName: 'bg-new-modal',
+  bgClassName: 'bg-indigo800',
   roundedClassName: 'rounded-none sm:rounded-xl',
   maxWidthClassName: 'sm:max-w-lg',
   widthClassName: 'w-screen sm:w-full',
