@@ -109,8 +109,9 @@ const pooltogetherReactTailwindUIConfig = {
         'gradient-purple': 'var(--color-pt-gradient-purple)',
         'blue-2': 'var(--color-bg-blue-2)',
         'slate100': 'var(--color-text-slate-100)',
-        'indigo900': 'var(--color-bg-indigo-900)',
-        'indigo700': 'var(--color-bg-indigo-700)'
+        'indigo700': 'var(--color-bg-indigo-700)',
+        'indigo800': 'var(--color-bg-indigo-800)',
+        'indigo900': 'var(--color-bg-indigo-900)'
       },
       textColor: {
         'accent-1': 'var(--color-text-accent-1)',
